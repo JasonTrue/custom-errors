@@ -1,0 +1,22 @@
+jagaimo:
+  directory: jagaimocom
+  navigation:
+    home: /
+    search: /archive?utf8=%E2%9C%93&query=&commit=Search
+
+jagaimoblog:
+  directory: jagaimoblog
+  navigation:
+    home: /
+
+yuzuten:
+  directory: yuzuten
+  navigation:
+    home: /
+
+ochokochoi:
+  directory: ochokochoi
+  navigation:
+    home: /
+
+

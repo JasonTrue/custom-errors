@@ -1,0 +1,19 @@
+{
+  "source": "src",
+  "destination": "dist",
+  "plugins": {
+    "metalsmith-debug": {"log": "Started Debugging"},
+    "metalsmith-metadata": {
+      "sites": "sites.yaml"
+    },
+    "lib/metalsmith/targets.js":  {
+      "directory": "sites"
+    },
+    "metalsmith-in-place": {
+      "defaultLayout": "layouts/layout.html.njk"
+    },
+    "metalsmith-layouts": {
+      "defaultLayout": "layouts/layout.html.njk"
+    }
+  }
+}
