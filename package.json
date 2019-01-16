@@ -9,6 +9,8 @@
   "private": false,
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
+    "aws-sdk": "^2.388.0",
+    "dotenv": "^6.2.0",
     "jstransformer-handlebars": "^1.1.0",
     "jstransformer-markdown-it": "^2.1.0",
     "jstransformer-nunjucks": "^0.5.0",
@@ -31,6 +33,7 @@
     "@babel/preset-env": "^7.2.3"
   },
   "scripts": {
-    "build": "metalsmith"
+    "build": "metalsmith",
+    "upload": "node lib/upload-to-s3.js"
   }
 }
